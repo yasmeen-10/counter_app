@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem; /* Increased size */
+  color: #3632a8;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.increment-btn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.decrement-btn {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.reset-btn {
+  background-color: #008CBA; /* Blue */
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
